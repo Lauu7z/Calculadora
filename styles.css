@@ -5,32 +5,37 @@
 }
 
 main {
+  display: flex;
   height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 .calculadora {
   display: flex;
   background-color: grey;
-  width: 60rem;
-  height: 80rem;
+  width: 40rem;
   border-radius: 40px;
-  padding-top: 4rem;
+  padding-top: 2rem;
   flex-direction: column;
   align-items: center;
+  height: 100%;
+  border: 2px solid black;
 }
 
 #display {
   display: flex;
-  width: 55rem;
-  height: 15rem;
+  width: 36rem;
+  height: 8rem;
   background-color: darkseagreen;
   border-radius: 40px;
   border: none;
   font-size: 70px;
+  padding-left: 40px;
+  border: 1px solid black;
 }
 
 .teclas {
@@ -47,10 +52,12 @@ main {
 .operator {
   border-radius: 20px;
   border: none;
-  width: 200px;
+  width: 8rem;
   font-size: 40px;
+  background-color: rgb(44, 44, 44);
+  color: white;
 }
 
 #equal {
-  width: 410px;
+  width: 17rem;
 }
